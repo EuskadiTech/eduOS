@@ -7,7 +7,7 @@ File: programs/Web Explorer/we.js
 */
 //Create a new window object
 new explorer.window()
-.title('Web Explorer') //set the title
+.title('TeleSec') //set the title
 .resize(400, 300) //set the dimentions
 .icon('programs/Web Explorer/1.png') //set the icon
 .toggleMax() //make the window maximized
