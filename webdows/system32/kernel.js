@@ -1,5 +1,5 @@
 /*!
-Project: Webdows
+Project: eduOS
 Liscense: MIT
 Author: krisdb2009
 File: webdows/system32/kernel.js
@@ -16,7 +16,7 @@ $('#bootlog').append('<pre>Platform...GOOD</pre>');
 function blueScreen(error) {
 	$('body').attr('style','');
 	$('body').css({'background-color':'blue','font-family':'Courier','color':'white'});
-	$('body').html('Webdows (c) 2015 - 2017<br><br>A problem has been detected and Webdows has been halted.<br><br>If this is the first time you\'ve seen this error screen, refresh your browser. If this screen appears again, follow these steps:<br>Check to make sure any new software is properly written (HTTP errors, syntax errors, ect). If problems continue, try resetting Webdows: <a style="color:white;" href="#" onclick="system.registry.set();window.location.reload();">(Reset)</a>.<br><br>Technical information:<br><br>');
+	$('body').html('eduOS (c) 2015 - 2017<br><br>A problem has been detected and eduOS has been halted.<br><br>If this is the first time you\'ve seen this error screen, refresh your browser. If this screen appears again, follow these steps:<br>Check to make sure any new software is properly written (HTTP errors, syntax errors, ect). If problems continue, try resetting eduOS: <a style="color:white;" href="#" onclick="system.registry.set();window.location.reload();">(Reset)</a>.<br><br>Technical information:<br><br>');
 	$('body').append(error);
 }
 var legacySetInterval = setInterval;

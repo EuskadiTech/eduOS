@@ -1,5 +1,5 @@
 /*!
-Project: Webdows
+Project: eduOS
 Liscense: MIT
 Author: krisdb2009
 File: webdows/explorer.js

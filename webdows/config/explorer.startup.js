@@ -1,7 +1,7 @@
-$('head').find('title').text('Webdows');
+$('head').find('title').text('eduOS');
 explorer.start.append([], [
 	{
-		title: 'Webdows',
+		title: 'eduOS',
 		icon: 'webdows/resources/icons/ques.ico',
 		callback: function() { system.loader('webdows/webver.js'); }
 	}, {

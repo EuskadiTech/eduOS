@@ -12,7 +12,7 @@
 		],
 		"startmenu": [
 			{
-				"title": "About Webdows",
+				"title": "About eduOS",
 				"icon": "webdows/resources/icons/info.ico",
 				"file": "webdows/webver.js"
 			}, {

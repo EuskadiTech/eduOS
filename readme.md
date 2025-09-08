@@ -6,7 +6,7 @@
 <a href="https://belowaverage.org/"><img src="https://raw.githubusercontent.com/krisdb2009/webdows-docs/master/images/website.png"></a>
 </p>
 <hr>
-<h2 align="center">Webdows is a dynamic window API for the web browser designed to look and feel like Microsoft Windows</h2>
+<h2 align="center">eduOS is a dynamic window API for the web browser designed to look and feel like Microsoft Windows</h2>
 <hr>
 <h1>Features</h1>
 

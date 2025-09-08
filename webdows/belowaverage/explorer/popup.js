@@ -57,7 +57,7 @@ window.explorer.window = function() {
 		$(extwin.document.body).append(expwin.jq);
 	};
 	var interval = setInterval(function() {
-		if($(extwin.document.head).find('title').text() == 'Webdows') {
+		if($(extwin.document.head).find('title').text() == 'eduOS') {
 			clearInterval(interval);
 			delete interval;
 			replace();
