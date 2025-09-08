@@ -18,7 +18,7 @@ new explorer.window()
 	//Variable rename for convienience and access later on.
 	var bod = this.body;
 	
-	bod.html('<iframe class="if1"></iframe>');
+	bod.html('<iframe class="if1" src="https://telesec.tech.eus"></iframe>');
 	bod.find('iframe.if1').attr('style', 'position:absolute;top:0px;left:0px;width:100%;height:calc(100%);border:none;background-color:white;');
 	
 });
