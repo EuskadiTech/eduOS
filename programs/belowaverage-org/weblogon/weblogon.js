@@ -1,5 +1,5 @@
 /*
-Below Average
+EuskadiTech
 
 This component is NOT nessesary for the functionality of eduOS.
 

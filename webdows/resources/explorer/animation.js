@@ -57,7 +57,7 @@ new explorer.window()
 		position:absolute;
 		line-height:95px;
 		color:white;
-		content:'Below Average';
+		content:'EuskadiTech';
 		font-size:25px;
 		margin-left:100px;
 		animation:es3 3s ease-in-out;

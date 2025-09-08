@@ -13,7 +13,7 @@ new explorer.window()
 	var win = this;
 	var body = this.body;
 	body.css({'background-color':'#000','color':'white'});
-	body.html('<div>EuskadiTech eduOS [Version 0.0.00001]<br>(c) 2015 Below Average. All Rights Reserved.<br><br></div><span>$></span><input>');
+	body.html('<div>EuskadiTech eduOS [Version 0.0.00001]<br>(c) 2015 EuskadiTech. All Rights Reserved.<br><br></div><span>$></span><input>');
 	body.find('span').attr('style', 'height:20px;width:20px;');
 	body.find('input').css({'cursor':'default','font-family':'NotoSans','font-size':'16px','height':'20px','width':'calc(100% - 20px)','border':'none','box-shadow':'none','background-color':'black','color':'white'}).focus();
 	var history = [];
