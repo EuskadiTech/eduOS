@@ -6,7 +6,7 @@ Date: 03/20/16
 File: webdows/welcome.js
 */
 new explorer.window()
-.title('Welcome to eduOS')
+.title('Inicio Rápido')
 .resize(570, 300)
 .center()
 .icon('webdows/resources/icons/logo.png')
@@ -14,10 +14,17 @@ new explorer.window()
 .callback(function() {
 	var butts = [
 		{
-			text: 'About',
+			text: 'Acerca de',
 			icon: 'webdows/resources/icons/info.ico',
 			callback: function() {
 				system.loader('webdows/webver.js');
+			}
+		},
+		{
+			text: 'TeleSec',
+			icon: 'webdows/resources/icons/info.ico',
+			callback: function() {
+				system.loader('programs/tools/telesec.js');
 			}
 		},
 	];
